@@ -86,26 +86,7 @@
 }
 
 
-/*
-figure {
-    background: url("/SF_Web_Dev/Assignment_1/Images/moonlight11.png");
-    background-repeat: no-repeat;
-    background-position: 1400px 0px;
-    animation: moon 20s ease-in-out infinite;
-    overflow: hidden;
-}
-*/
 
-@keyframes moon {
-    0% {
-        background-position: 1400px 0;
-    }
-    50% {
-        background-position: 1000px 0;
-    }
-    100% {
-        background-position: 1400px 0;
-    }
 }
 
 .tm-port-para {
@@ -149,7 +130,7 @@ figure {
     animation: typing-li 10s steps(80);
     overflow: hidden;
     white-space: nowrap;
-    animation-delay: 2s;
+    animation-delay: 5s;
     list-style-type: square;
 }
 
